@@ -1,0 +1,23 @@
+body {
+  background-color: hsl(200, 40%, 70%);
+}
+
+#tooltip {
+  position: absolute;
+  pointer-events: none;
+}
+
+#tooltip {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: #333;
+  color: #eee;
+}
+
+.chart {
+  background-color: hsl(200, 0%, 88%);
+  display: block;
+  margin: 2rem auto;
+  border-radius: 3px;
+  box-shadow: 0 0 12px #333;
+}

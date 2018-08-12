@@ -1,0 +1,37 @@
+{
+  "name": "fcc-bar-chart",
+  "version": "1.0.0",
+  "description": "Doping in bycicle racing scatter-plot project using D3 library as part of freecodecamp course",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel js/main.js --out-file js/main.babel.js",
+    "minifyjs": "minify js/main.babel.js > dist/js/main.js",
+    "minifycss": "minify css/style.css > dist/css/style.css",
+    "minifyhtml": "minify index.html > dist/index.html",
+    "build": "npm run babel && npm run minifyjs && npm run minifycss && npm run minifyhtml",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minggas/fcc-scatter-plot.git"
+  },
+  "keywords": [
+    "scatter-plot",
+    "freecodecamp",
+    "Doping",
+    "D3"
+  ],
+  "author": "Minggas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minggas/fcc-scatter-plot/issues"
+  },
+  "homepage": "https://minggas.github.io/fcc-scatter-plot",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "gh-pages": "^1.2.0",
+    "minify": "^3.0.5"
+  }
+}
