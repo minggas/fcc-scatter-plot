@@ -26,13 +26,13 @@ String.prototype.ordinalNumber = function() {
 };
 //Tooltip
 let tooltip = d3
-  .select("body")
+  .select(".container")
   .append("div")
   .attr("id", "tooltip")
   .style("opacity", 0);
 //Chart container
 let svgContainer = d3
-  .select("body")
+  .select(".container")
   .append("svg")
   .attr("class", "chart")
   .attr("width", w + margin.left + margin.right)

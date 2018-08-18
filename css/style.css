@@ -21,3 +21,15 @@ body {
   border-radius: 3px;
   box-shadow: 0 0 12px #333;
 }
+
+.author {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #911c08;
+}
+.author a {
+  text-decoration: none;
+  color: #086391;
+  line-height: 26px;
+}
